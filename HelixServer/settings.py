@@ -37,7 +37,12 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    'rest_framework',
+    # Questions Application
+    'questions.apps.QuestionsConfig'
 ]
+
+ALLOWED_HOSTS = ['*']
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
