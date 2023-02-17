@@ -112,6 +112,8 @@ USE_I18N = True
 
 USE_TZ = True
 
+## https://docs.djangoproject.com/en/4.0/ref/settings/#csrf-trusted-origins
+CSRF_TRUSTED_ORIGINS = ['https://agile-earth-88465.herokuapp.com/','https://*.127.0.0.1','http://*.127.0.0.1']
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
